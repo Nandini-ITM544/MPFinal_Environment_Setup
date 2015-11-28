@@ -1,4 +1,5 @@
 #!/bin/bash
+# All installations
 sudo apt-get update && sudo apt-get install -y apache2 git php5 php5-mysql php5-curl mysql-client curl php5-imagick
 cd /var/www/html
 sudo git clone https://github.com/Nandini-ITM544/MPFinal_Application_Setup
